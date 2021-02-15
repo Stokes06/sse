@@ -27,7 +27,7 @@ services:
   sse-client:
     image: nginx
     volumes:
-      - ./:/usr/share/nginx/html
+      - ./sse-client/:/usr/share/nginx/html
     ports:
       - "8090:80"
 volumes:

@@ -9,6 +9,12 @@ Le mercure hub local est maintenant accessible [à cette adresse](http://localho
 
 J'utilise le bundle symfony/mercure-bundle pour communiquer avec le hub de mercure
 
+installer le bundle avec la commande
+
+```
+composer require mercure
+```
+
 [voir ProductController](./src/Controller/ProductController.php) 
 
 ## Utilisation
